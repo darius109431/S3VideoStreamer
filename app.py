@@ -132,7 +132,8 @@ def play():
     print(f"[#] Presigned URL: {presignedURL}")
     print()
 
-    return render_template('play.html', videoURL=presignedURL, objectName=objectName)
+    # return render_template('play.html', videoURL=presignedURL, objectName=objectName)
+    return redirect(presignedURL)
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(host='0.0.0.0',debug = True)

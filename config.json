@@ -1,8 +1,8 @@
 {
-    "accessKey": "",
-    "secretAccessKey": "",
-    "bucketName": "",
-    "region": "us-east-1",
-    "endpoint": "https://s3.wasabisys.com",
+    "accessKey": "AKIAYQVDZJNCZPON4DPM",
+    "secretAccessKey": "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",
+    "bucketName": "videomarxim",
+    "region": "us-east-2",
+    "endpoint": "https://s3.us-east-2.amazonaws.com",
     "presignedURLExpiration": 3600
 }
